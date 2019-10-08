@@ -247,15 +247,15 @@ button {
     .about_cesar {
         border-radius: 50%;
         border: solid black 1px;
-        width: 60px;
-        height: 40px;
+        width: 70px;
+        height: 70px;
     
     }
     .about_dog {
         border: solid black 1px;
         border-radius: 50%;
-        width: 60px;
-        height: 40px;
+        width: 70px;
+        height: 70px;
     }
     /* about me is done */
     .project_list {
