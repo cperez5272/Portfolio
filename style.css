@@ -68,7 +68,7 @@ button {
     width: 50px;
 }
 /* Main page is done */
-.about {
+.container {
     background-color: white;
     padding: 20px;
     margin: auto;
@@ -78,6 +78,9 @@ button {
     height: 14cm;
     overflow: scroll;
 }
+/* .container#about_container {
+    background-color: blueviolet;
+} */
 .about_duo {
     display: flex;
     justify-content: space-evenly;
