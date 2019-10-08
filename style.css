@@ -234,7 +234,7 @@ button {
         width: 45px;
     }
     /* Main page is done */
-    .about {
+    .container {
         background-color: white;
         padding: 20px;
         margin: auto;
@@ -243,6 +243,17 @@ button {
         margin-right: 40px;
         height: 13cm;
         overflow: scroll;
+    }
+    .about_cesar {
+        border-radius: 50%;
+        border: solid black 1px;
+        width: 80px;
+    
+    }
+    .about_dog {
+        border: solid black 1px;
+        border-radius: 50%;
+        width: 80px;
     }
     /* about me is done */
     .project_list {
