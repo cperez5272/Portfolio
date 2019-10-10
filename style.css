@@ -25,7 +25,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     border-radius: 55%;
-    width: 180px;
+    width: 20%;
     border: solid black 1px;
 }
 .full_name {
@@ -91,13 +91,13 @@ button {
 .about_cesar {
     border-radius: 50%;
     border: solid black 1px;
-    width: 120px;
+    width: 200%;
 
 }
 .about_dog {
     border: solid black 1px;
     border-radius: 50%;
-    width: 120px;
+    width: 200%;
 }
 .about_one {
     font-family: 'Neucha', cursive;
@@ -142,7 +142,7 @@ button {
 }
 .quiz_photo {
     text-align: center;
-    min-height: 80px;
+    min-height: 70%;
     padding: 5px; 
     background-color: white;
 }
@@ -181,6 +181,143 @@ button {
 }
 .links:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .main {
+        background-color: white;
+        padding: 20px;
+        margin: auto;
+        margin-top: 55px;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 12cm;
+    }
+    .main_cesar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        width: 140px;
+        border: solid black 1px;
+    }
+    .full_name {
+        text-align: center;
+        font-family: 'Handlee', cursive;
+    }
+    .job_title {
+        text-align: center;
+        font-family: 'Handlee', cursive;
+    }
+    .click_about {
+        text-align: center;
+        font-family: 'Handlee', cursive;
+    }
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ig_icon {
+        width: 45px;
+    }
+    .git_icon {
+        width: 45px;
+    }
+    .mail_icon {
+        width: 45px;
+    }
+    .in_icon {
+        width: 45px;
+    }
+    .reddit_icon {
+        width: 45px;
+    }
+    /* Main page is done */
+    .container {
+        background-color: white;
+        padding: 20px;
+        margin: auto;
+        margin-top: 55px;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 13cm;
+        overflow: scroll;
+    }
+    .about_cesar {
+        border-radius: 50%;
+        border: solid black 1px;
+        width: 200%;
+    }
+    .about_dog {
+        border: solid black 1px;
+        border-radius: 50%;
+        width: 200%;
+    }
+    /* about me is done */
+    .project_list {
+        background-color: white;
+        padding: 20px;
+        margin: auto;
+        margin-top: 45px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 13cm;
+        overflow: scroll;
+    }
+    .quiz_title {
+        text-align: center;
+        line-height: 30px;
+        word-spacing: 7px;
+    }
+    .quiz_photo {
+        text-align: center;
+        min-height: 35%;
+        padding: 5px; 
+        background-color: white;
+    }
+    .quiz_pic {
+        height: 215px;
+    }
+    .describe {
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 18px;
+        min-height: 80px;
+        padding: 5%;
+        background-color: rgb(184, 219, 248);
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .describe:hover {
+        opacity: 1;
+    }
+    .programs_used {
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 23px;
+        min-height: 80px;
+        padding: 5%;
+        background-color: rgb(184, 219, 248);
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .programs_used:hover {
+        opacity: 1;
+    }
+    .links {
+        font-family: 'Nanum Myeongjo', serif;
+        text-align: center;
+        font-size: 20px;
+        min-height: 80px;
+        padding: 5%;
+        background-color: rgb(184, 219, 248);
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .links:hover {
+        opacity: 1;
+    }
 }
 @media screen and (max-width: 500px) {
     .main {
@@ -247,15 +384,12 @@ button {
     .about_cesar {
         border-radius: 50%;
         border: solid black 1px;
-        width: 70px;
-        height: 70px;
-    
+        width: 150%;
     }
     .about_dog {
         border: solid black 1px;
         border-radius: 50%;
-        width: 70px;
-        height: 70px;
+        width: 150%;
     }
     /* about me is done */
     .project_list {
@@ -270,11 +404,17 @@ button {
     }
     .quiz_title {
         text-align: center;
-        line-height: 14px;
+        line-height: 30px;
         word-spacing: 7px;
     }
+    .quiz_photo {
+        text-align: center;
+        min-height: 35%;
+        padding: 5px; 
+        background-color: white;
+    }
     .quiz_pic {
-        height: 150px;
+        height: 120px;
     }
     .describe {
         font-family: 'Nanum Myeongjo', serif;
