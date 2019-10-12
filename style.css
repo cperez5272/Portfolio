@@ -16,7 +16,10 @@ body {
 footer {
     text-align: center;
     margin-top: 20px;
+    background-color: black;
     color: white; 
+    margin-right: 35%;
+    margin-left: 35%;
 }
 li {
     border: 0;
