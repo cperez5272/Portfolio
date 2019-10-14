@@ -9,9 +9,9 @@ body {
     padding: 20px;
     margin: auto;
     margin-top: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
-    height: 14cm;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 13.5cm;
 }
 footer {
     text-align: center;
@@ -49,7 +49,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     border-radius: 55%;
-    width: 20%;
+    width: 55%;
     border: solid black 1px;
 }
 .full_name {
@@ -74,26 +74,25 @@ button {
 }
 .social {
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     min-width: 90px; 
 }
 .ig_icon {
-    width: 50px;
+    width: 45px;
 }
 .git_icon {
-    width: 50px;
+    width: 45px;
 }
 .mail_icon {
-    width: 50px;
+    width: 45px;
 }
 .in_icon {
-    width: 50px;
+    width: 45px;
 }
 .reddit_icon {
-    width: 50px;
+    width: 45px;
 }
 /* Main page is done */
 .container {
@@ -101,8 +100,8 @@ button {
     padding: 20px;
     margin: auto;
     margin-top: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
     height: 14cm;
     overflow: scroll;
 }
@@ -154,20 +153,23 @@ button {
     padding: 20px;
     margin: auto;
     margin-top: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
     height: 14cm;
     overflow: scroll; 
 }
+.quiz_pic {
+    width: 100%;
+    margin: 0 auto;
+}
 .quiz_title {
     text-align: center;
-    line-height: 14px;
-    word-spacing: 7px;
+    line-height: 30px;
 }
 .quiz_photo {
     text-align: center;
-    min-height: 70%;
-    padding: 5px; 
+    min-height: 30%;
+    padding: 20px; 
     background-color: white;
 }
 .describe {
@@ -207,23 +209,58 @@ button {
     opacity: 1;
 }
 
-@media screen and (max-width: 1000px) {
+
+
+@media screen and (min-width:480px) {
+
+
 
     .main {
         background-color: white;
         padding: 20px;
         margin: auto;
-        margin-top: 55px;
+        margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 12cm;
+        height: 16cm;
+    }
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        background-color: black;
+        color: white; 
+        margin-right: 35%;
+        margin-left: 35%;
+    }
+    li {
+        border: 0;
+    }
+    button {
+        border: 0;
+        background-color: white;
+    }
+    .navbar {
+        background-color: rgb(184, 219, 248);
+        justify-content: center;
+    }
+    .hamburger {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        color: black;
+        margin-top: 0px;
     }
     .main_cesar {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 50%;
-        width: 140px;
+        border-radius: 55%;
+        width: 50%;
         border: solid black 1px;
     }
     .full_name {
@@ -242,11 +279,16 @@ button {
         text-align: center;
         font-family: 'Handlee', cursive;
     }
+    .click_projects {
+        text-align: center;
+        font-family: 'Handlee', cursive; 
+    }
     .social {
         display: flex;
         justify-content: space-evenly;
         margin-left: auto;
         margin-right: auto;
+        min-width: 90px; 
     }
     .ig_icon {
         width: 45px;
@@ -268,11 +310,18 @@ button {
         background-color: white;
         padding: 20px;
         margin: auto;
-        margin-top: 55px;
+        margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 13cm;
+        height: 14cm;
         overflow: scroll;
+    }
+    .about_duo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;    
     }
     .about_cesar {
         border-radius: 50%;
@@ -284,34 +333,59 @@ button {
         border-radius: 50%;
         width: 200%;
     }
+    .about_one {
+        font-family: 'Neucha', cursive;
+        font-size: 20px;
+        text-align: center;
+        min-height: 100px;
+        padding: 4%;
+        background-color: rgb(184, 219, 248);
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .about_one:hover {
+        opacity: 1;
+    }
+    .about_two {
+        font-family: 'Nanum Myeongjo', serif;
+        text-align: center;
+        min-height: 220px;
+        padding: 4%;
+        background-color: rgb(184, 219, 248);
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .about_two:hover {
+        opacity: 1;
+    }
     /* about me is done */
     .project_list {
         background-color: white;
         padding: 20px;
         margin: auto;
-        margin-top: 45px;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 13cm;
-        overflow: scroll;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 14cm;
+        overflow: scroll; 
+    }
+    .quiz_pic {
+        width: 100%;
+        margin: 0 auto;
     }
     .quiz_title {
         text-align: center;
         line-height: 30px;
-        word-spacing: 7px;
     }
     .quiz_photo {
         text-align: center;
-        min-height: 35%;
-        padding: 5px; 
+        min-height: 30%;
+        padding: 20px; 
         background-color: white;
-    }
-    .quiz_pic {
-        height: 215px;
     }
     .describe {
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 18px;
+        text-align: center;
         min-height: 80px;
         padding: 5%;
         background-color: rgb(184, 219, 248);
@@ -323,7 +397,7 @@ button {
     }
     .programs_used {
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 23px;
+        text-align: center;
         min-height: 80px;
         padding: 5%;
         background-color: rgb(184, 219, 248);
@@ -336,7 +410,6 @@ button {
     .links {
         font-family: 'Nanum Myeongjo', serif;
         text-align: center;
-        font-size: 20px;
         min-height: 80px;
         padding: 5%;
         background-color: rgb(184, 219, 248);
@@ -346,23 +419,59 @@ button {
     .links:hover {
         opacity: 1;
     }
-}
-@media screen and (max-width: 500px) {
+  }
+
+
+  @media screen and (min-width:800px) {
+
+
+
     .main {
         background-color: white;
         padding: 20px;
         margin: auto;
-        margin-top: 55px;
+        margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 12cm;
+        height: 16cm;
+    }
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        background-color: black;
+        color: white; 
+        margin-right: 35%;
+        margin-left: 35%;
+    }
+    li {
+        border: 0;
+    }
+    button {
+        border: 0;
+        background-color: white;
+    }
+    .navbar {
+        background-color: rgb(184, 219, 248);
+        justify-content: center;
+    }
+    .hamburger {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        color: black;
+        margin-top: 0px;
     }
     .main_cesar {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 50%;
-        width: 140px;
+        border-radius: 55%;
+        width: 35%;
         border: solid black 1px;
     }
     .full_name {
@@ -373,15 +482,24 @@ button {
         text-align: center;
         font-family: 'Handlee', cursive;
     }
+    .click_main {
+        text-align: center;
+        font-family: 'Handlee', cursive;
+    }
     .click_about {
         text-align: center;
         font-family: 'Handlee', cursive;
+    }
+    .click_projects {
+        text-align: center;
+        font-family: 'Handlee', cursive; 
     }
     .social {
         display: flex;
         justify-content: space-evenly;
         margin-left: auto;
         margin-right: auto;
+        min-width: 90px; 
     }
     .ig_icon {
         width: 45px;
@@ -403,50 +521,82 @@ button {
         background-color: white;
         padding: 20px;
         margin: auto;
-        margin-top: 55px;
+        margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 13cm;
+        height: 14cm;
         overflow: scroll;
+    }
+    .about_duo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;    
     }
     .about_cesar {
         border-radius: 50%;
         border: solid black 1px;
-        width: 150%;
+        width: 200%;
     }
     .about_dog {
         border: solid black 1px;
         border-radius: 50%;
-        width: 150%;
+        width: 200%;
+    }
+    .about_one {
+        font-family: 'Neucha', cursive;
+        font-size: 20px;
+        text-align: center;
+        min-height: 100px;
+        padding: 4%;
+        background-color: rgb(184, 219, 248);
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .about_one:hover {
+        opacity: 1;
+    }
+    .about_two {
+        font-family: 'Nanum Myeongjo', serif;
+        text-align: center;
+        min-height: 220px;
+        padding: 4%;
+        background-color: rgb(184, 219, 248);
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .about_two:hover {
+        opacity: 1;
     }
     /* about me is done */
     .project_list {
         background-color: white;
         padding: 20px;
         margin: auto;
-        margin-top: 45px;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 13cm;
-        overflow: scroll;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 14cm;
+        overflow: scroll; 
+    }
+    .quiz_pic {
+        width: 100%;
+        margin: 0 auto;
     }
     .quiz_title {
         text-align: center;
         line-height: 30px;
-        word-spacing: 7px;
     }
     .quiz_photo {
         text-align: center;
-        min-height: 35%;
-        padding: 5px; 
+        min-height: 30%;
+        padding: 20px; 
         background-color: white;
-    }
-    .quiz_pic {
-        height: 120px;
     }
     .describe {
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 18px;
+        text-align: center;
         min-height: 80px;
         padding: 5%;
         background-color: rgb(184, 219, 248);
@@ -458,7 +608,7 @@ button {
     }
     .programs_used {
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 23px;
+        text-align: center;
         min-height: 80px;
         padding: 5%;
         background-color: rgb(184, 219, 248);
@@ -471,7 +621,6 @@ button {
     .links {
         font-family: 'Nanum Myeongjo', serif;
         text-align: center;
-        font-size: 20px;
         min-height: 80px;
         padding: 5%;
         background-color: rgb(184, 219, 248);
@@ -481,4 +630,4 @@ button {
     .links:hover {
         opacity: 1;
     }
-}
+  }
