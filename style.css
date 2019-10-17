@@ -11,7 +11,7 @@ body {
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px;
-    height: 14.5cm;
+    height: 18cm;
 }
 footer {
     text-align: center;
@@ -80,19 +80,19 @@ button {
     min-width: 90px; 
 }
 .ig_icon {
-    width: 45px;
+    width: 50px;
 }
 .git_icon {
-    width: 45px;
+    width: 50px;
 }
 .mail_icon {
-    width: 45px;
+    width: 50px;
 }
 .in_icon {
-    width: 45px;
+    width: 50px;
 }
 .reddit_icon {
-    width: 45px;
+    width: 50px;
 }
 /* Main page is done */
 .container {
@@ -433,7 +433,7 @@ button {
         margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 17cm;
+        height: 21cm;
     }
     footer {
         text-align: center;
@@ -471,7 +471,7 @@ button {
         margin-left: auto;
         margin-right: auto;
         border-radius: 55%;
-        width: 25%;
+        width: 20%;
         border: solid black 1px;
     }
     .full_name {
@@ -502,19 +502,19 @@ button {
         min-width: 90px; 
     }
     .ig_icon {
-        width: 45px;
+        width: 55px;
     }
     .git_icon {
-        width: 45px;
+        width: 55px;
     }
     .mail_icon {
-        width: 45px;
+        width: 55px;
     }
     .in_icon {
-        width: 45px;
+        width: 55px;
     }
     .reddit_icon {
-        width: 45px;
+        width: 55px;
     }
     /* Main page is done */
     .container {
