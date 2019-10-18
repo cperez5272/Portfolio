@@ -24,6 +24,10 @@ footer {
 li {
     border: 0;
 }
+
+a:visited, a:link {
+    color: black;
+}
 button {
     border: 0;
     background-color: white;
@@ -40,9 +44,9 @@ button {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
     color: black;
     margin-top: 0px;
+    padding-left: 0px;
 }
 .main_cesar {
     display: block;
@@ -155,8 +159,8 @@ button {
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px;
-    height: 14cm;
-    overflow: scroll; 
+    height: 30cm;
+    /* overflow: scroll;  */
 }
 .quiz_pic {
     width: 100%;
@@ -168,8 +172,6 @@ button {
 }
 .quiz_photo {
     text-align: center;
-    min-height: 30%;
-    padding: 20px; 
     background-color: white;
 }
 .describe {
@@ -235,6 +237,9 @@ button {
     li {
         border: 0;
     }
+    a:visited, a:link {
+        color: black;
+    }
     button {
         border: 0;
         background-color: white;
@@ -251,7 +256,6 @@ button {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding: 10px;
         color: black;
         margin-top: 0px;
     }
@@ -313,8 +317,8 @@ button {
         margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 14cm;
-        overflow: scroll;
+        height: 25.5cm;
+        /* overflow: scroll; */
     }
     .about_duo {
         display: flex;
@@ -334,7 +338,7 @@ button {
         width: 200%;
     }
     .about_one {
-        font-family: 'Neucha', cursive;
+        font-family: 'Nanum Myeongjo', serif;
         font-size: 20px;
         text-align: center;
         min-height: 100px;
@@ -366,8 +370,8 @@ button {
         margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 14cm;
-        overflow: scroll; 
+        height: 25.5cm;
+        /* overflow: scroll;  */
     }
     .quiz_pic {
         width: 100%;
@@ -379,8 +383,6 @@ button {
     }
     .quiz_photo {
         text-align: center;
-        min-height: 30%;
-        padding: 20px; 
         background-color: white;
     }
     .describe {
@@ -446,6 +448,9 @@ button {
     li {
         border: 0;
     }
+    a:visited, a:link {
+        color: black;
+    }
     button {
         border: 0;
         background-color: white;
@@ -462,7 +467,6 @@ button {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding: 10px;
         color: black;
         margin-top: 0px;
     }
@@ -524,8 +528,8 @@ button {
         margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 14cm;
-        overflow: scroll;
+        height: 20cm;
+        /* overflow: scroll; */
     }
     .about_duo {
         display: flex;
@@ -577,11 +581,11 @@ button {
         margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 14cm;
-        overflow: scroll; 
+        height: 38cm;
+        /* overflow: scroll;  */
     }
     .quiz_pic {
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
     }
     .quiz_title {
@@ -590,8 +594,6 @@ button {
     }
     .quiz_photo {
         text-align: center;
-        min-height: 30%;
-        padding: 20px; 
         background-color: white;
     }
     .describe {
